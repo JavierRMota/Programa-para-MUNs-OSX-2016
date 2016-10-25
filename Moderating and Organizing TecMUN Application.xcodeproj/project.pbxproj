@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B5277D01C6AE45A0021BC9A /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5277CF1C6AE45A0021BC9A /* View2.swift */; };
+		3B5829B81C670268000CCDAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5829B71C670268000CCDAC /* AppDelegate.swift */; };
+		3B5829BA1C670268000CCDAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5829B91C670268000CCDAC /* ViewController.swift */; };
+		3B5829BC1C670268000CCDAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B5829BB1C670268000CCDAC /* Assets.xcassets */; };
+		3B5829BF1C670268000CCDAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B5829BD1C670268000CCDAC /* Main.storyboard */; };
+		3B5829CA1C670269000CCDAC /* Moderating_and_Organizing_TecMUN_ApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5829C91C670269000CCDAC /* Moderating_and_Organizing_TecMUN_ApplicationTests.swift */; };
+		3B5829D51C670269000CCDAC /* Moderating_and_Organizing_TecMUN_ApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5829D41C670269000CCDAC /* Moderating_and_Organizing_TecMUN_ApplicationUITests.swift */; };
+		3B5B67681C6A891800F65C86 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B5B67671C6A891800F65C86 /* background.png */; };
+		3BDA2EC61CC1199500BED149 /* SharingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDA2EC51CC1199500BED149 /* SharingManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B5829C61C670269000CCDAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B5829AC1C670268000CCDAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B5829B31C670268000CCDAC;
+			remoteInfo = "Moderating and Organizing TecMUN Application";
+		};
+		3B5829D11C670269000CCDAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B5829AC1C670268000CCDAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B5829B31C670268000CCDAC;
+			remoteInfo = "Moderating and Organizing TecMUN Application";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B5277CF1C6AE45A0021BC9A /* View2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
+		3B5829B41C670268000CCDAC /* Moderating and Organizing TecMUN Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Moderating and Organizing TecMUN Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B5829B71C670268000CCDAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B5829B91C670268000CCDAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B5829BB1C670268000CCDAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B5829BE1C670268000CCDAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B5829C01C670268000CCDAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B5829C51C670269000CCDAC /* Moderating and Organizing TecMUN ApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Moderating and Organizing TecMUN ApplicationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B5829C91C670269000CCDAC /* Moderating_and_Organizing_TecMUN_ApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moderating_and_Organizing_TecMUN_ApplicationTests.swift; sourceTree = "<group>"; };
+		3B5829CB1C670269000CCDAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B5829D01C670269000CCDAC /* Moderating and Organizing TecMUN ApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Moderating and Organizing TecMUN ApplicationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B5829D41C670269000CCDAC /* Moderating_and_Organizing_TecMUN_ApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moderating_and_Organizing_TecMUN_ApplicationUITests.swift; sourceTree = "<group>"; };
+		3B5829D61C670269000CCDAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B5B67671C6A891800F65C86 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		3BDA2EC51CC1199500BED149 /* SharingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharingManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B5829B11C670268000CCDAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5829C21C670269000CCDAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5829CD1C670269000CCDAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B5829AB1C670268000CCDAC = {
+			isa = PBXGroup;
+			children = (
+				3B5829B61C670268000CCDAC /* Moderating and Organizing TecMUN Application */,
+				3B5829C81C670269000CCDAC /* Moderating and Organizing TecMUN ApplicationTests */,
+				3B5829D31C670269000CCDAC /* Moderating and Organizing TecMUN ApplicationUITests */,
+				3B5829B51C670268000CCDAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B5829B51C670268000CCDAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B5829B41C670268000CCDAC /* Moderating and Organizing TecMUN Application.app */,
+				3B5829C51C670269000CCDAC /* Moderating and Organizing TecMUN ApplicationTests.xctest */,
+				3B5829D01C670269000CCDAC /* Moderating and Organizing TecMUN ApplicationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B5829B61C670268000CCDAC /* Moderating and Organizing TecMUN Application */ = {
+			isa = PBXGroup;
+			children = (
+				3B5B67671C6A891800F65C86 /* background.png */,
+				3B5829B71C670268000CCDAC /* AppDelegate.swift */,
+				3B5829B91C670268000CCDAC /* ViewController.swift */,
+				3B5829BB1C670268000CCDAC /* Assets.xcassets */,
+				3B5829BD1C670268000CCDAC /* Main.storyboard */,
+				3B5829C01C670268000CCDAC /* Info.plist */,
+				3B5277CF1C6AE45A0021BC9A /* View2.swift */,
+				3BDA2EC51CC1199500BED149 /* SharingManager.swift */,
+			);
+			path = "Moderating and Organizing TecMUN Application";
+			sourceTree = "<group>";
+		};
+		3B5829C81C670269000CCDAC /* Moderating and Organizing TecMUN ApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B5829C91C670269000CCDAC /* Moderating_and_Organizing_TecMUN_ApplicationTests.swift */,
+				3B5829CB1C670269000CCDAC /* Info.plist */,
+			);
+			path = "Moderating and Organizing TecMUN ApplicationTests";
+			sourceTree = "<group>";
+		};
+		3B5829D31C670269000CCDAC /* Moderating and Organizing TecMUN ApplicationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B5829D41C670269000CCDAC /* Moderating_and_Organizing_TecMUN_ApplicationUITests.swift */,
+				3B5829D61C670269000CCDAC /* Info.plist */,
+			);
+			path = "Moderating and Organizing TecMUN ApplicationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B5829B31C670268000CCDAC /* Moderating and Organizing TecMUN Application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B5829D91C670269000CCDAC /* Build configuration list for PBXNativeTarget "Moderating and Organizing TecMUN Application" */;
+			buildPhases = (
+				3B5829B01C670268000CCDAC /* Sources */,
+				3B5829B11C670268000CCDAC /* Frameworks */,
+				3B5829B21C670268000CCDAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Moderating and Organizing TecMUN Application";
+			productName = "Moderating and Organizing TecMUN Application";
+			productReference = 3B5829B41C670268000CCDAC /* Moderating and Organizing TecMUN Application.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B5829C41C670269000CCDAC /* Moderating and Organizing TecMUN ApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B5829DC1C670269000CCDAC /* Build configuration list for PBXNativeTarget "Moderating and Organizing TecMUN ApplicationTests" */;
+			buildPhases = (
+				3B5829C11C670269000CCDAC /* Sources */,
+				3B5829C21C670269000CCDAC /* Frameworks */,
+				3B5829C31C670269000CCDAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B5829C71C670269000CCDAC /* PBXTargetDependency */,
+			);
+			name = "Moderating and Organizing TecMUN ApplicationTests";
+			productName = "Moderating and Organizing TecMUN ApplicationTests";
+			productReference = 3B5829C51C670269000CCDAC /* Moderating and Organizing TecMUN ApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B5829CF1C670269000CCDAC /* Moderating and Organizing TecMUN ApplicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B5829DF1C670269000CCDAC /* Build configuration list for PBXNativeTarget "Moderating and Organizing TecMUN ApplicationUITests" */;
+			buildPhases = (
+				3B5829CC1C670269000CCDAC /* Sources */,
+				3B5829CD1C670269000CCDAC /* Frameworks */,
+				3B5829CE1C670269000CCDAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B5829D21C670269000CCDAC /* PBXTargetDependency */,
+			);
+			name = "Moderating and Organizing TecMUN ApplicationUITests";
+			productName = "Moderating and Organizing TecMUN ApplicationUITests";
+			productReference = 3B5829D01C670269000CCDAC /* Moderating and Organizing TecMUN ApplicationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B5829AC1C670268000CCDAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = TecMUN;
+				TargetAttributes = {
+					3B5829B31C670268000CCDAC = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					3B5829C41C670269000CCDAC = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 3B5829B31C670268000CCDAC;
+					};
+					3B5829CF1C670269000CCDAC = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 3B5829B31C670268000CCDAC;
+					};
+				};
+			};
+			buildConfigurationList = 3B5829AF1C670268000CCDAC /* Build configuration list for PBXProject "Moderating and Organizing TecMUN Application" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B5829AB1C670268000CCDAC;
+			productRefGroup = 3B5829B51C670268000CCDAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B5829B31C670268000CCDAC /* Moderating and Organizing TecMUN Application */,
+				3B5829C41C670269000CCDAC /* Moderating and Organizing TecMUN ApplicationTests */,
+				3B5829CF1C670269000CCDAC /* Moderating and Organizing TecMUN ApplicationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B5829B21C670268000CCDAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5829BC1C670268000CCDAC /* Assets.xcassets in Resources */,
+				3B5B67681C6A891800F65C86 /* background.png in Resources */,
+				3B5829BF1C670268000CCDAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5829C31C670269000CCDAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5829CE1C670269000CCDAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B5829B01C670268000CCDAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5829BA1C670268000CCDAC /* ViewController.swift in Sources */,
+				3B5277D01C6AE45A0021BC9A /* View2.swift in Sources */,
+				3BDA2EC61CC1199500BED149 /* SharingManager.swift in Sources */,
+				3B5829B81C670268000CCDAC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5829C11C670269000CCDAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5829CA1C670269000CCDAC /* Moderating_and_Organizing_TecMUN_ApplicationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5829CC1C670269000CCDAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5829D51C670269000CCDAC /* Moderating_and_Organizing_TecMUN_ApplicationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B5829C71C670269000CCDAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B5829B31C670268000CCDAC /* Moderating and Organizing TecMUN Application */;
+			targetProxy = 3B5829C61C670269000CCDAC /* PBXContainerItemProxy */;
+		};
+		3B5829D21C670269000CCDAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B5829B31C670268000CCDAC /* Moderating and Organizing TecMUN Application */;
+			targetProxy = 3B5829D11C670269000CCDAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B5829BD1C670268000CCDAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B5829BE1C670268000CCDAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B5829D71C670269000CCDAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B5829D81C670269000CCDAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3B5829DA1C670269000CCDAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Moderating and Organizing TecMUN Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tecmun.org.Moderating-and-Organizing-TecMUN-Application";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B5829DB1C670269000CCDAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Moderating and Organizing TecMUN Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tecmun.org.Moderating-and-Organizing-TecMUN-Application";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3B5829DD1C670269000CCDAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Moderating and Organizing TecMUN ApplicationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tecmun.org.Moderating-and-Organizing-TecMUN-ApplicationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moderating and Organizing TecMUN Application.app/Contents/MacOS/Moderating and Organizing TecMUN Application";
+			};
+			name = Debug;
+		};
+		3B5829DE1C670269000CCDAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Moderating and Organizing TecMUN ApplicationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tecmun.org.Moderating-and-Organizing-TecMUN-ApplicationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moderating and Organizing TecMUN Application.app/Contents/MacOS/Moderating and Organizing TecMUN Application";
+			};
+			name = Release;
+		};
+		3B5829E01C670269000CCDAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Moderating and Organizing TecMUN ApplicationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tecmun.org.Moderating-and-Organizing-TecMUN-ApplicationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Moderating and Organizing TecMUN Application";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3B5829E11C670269000CCDAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Moderating and Organizing TecMUN ApplicationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tecmun.org.Moderating-and-Organizing-TecMUN-ApplicationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Moderating and Organizing TecMUN Application";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B5829AF1C670268000CCDAC /* Build configuration list for PBXProject "Moderating and Organizing TecMUN Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B5829D71C670269000CCDAC /* Debug */,
+				3B5829D81C670269000CCDAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B5829D91C670269000CCDAC /* Build configuration list for PBXNativeTarget "Moderating and Organizing TecMUN Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B5829DA1C670269000CCDAC /* Debug */,
+				3B5829DB1C670269000CCDAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B5829DC1C670269000CCDAC /* Build configuration list for PBXNativeTarget "Moderating and Organizing TecMUN ApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B5829DD1C670269000CCDAC /* Debug */,
+				3B5829DE1C670269000CCDAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B5829DF1C670269000CCDAC /* Build configuration list for PBXNativeTarget "Moderating and Organizing TecMUN ApplicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B5829E01C670269000CCDAC /* Debug */,
+				3B5829E11C670269000CCDAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B5829AC1C670268000CCDAC /* Project object */;
+}
